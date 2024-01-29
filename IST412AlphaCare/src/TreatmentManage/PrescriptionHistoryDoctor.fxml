@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="760.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TreatmentManage.PrescriptionHistoryDoctorController">
+     <children>
+           <Label fx:id="helloTxt" layoutX="14.0" layoutY="10.0"  text="My Prscription History">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TableView fx:id="table" layoutX="14.0" layoutY="39.0" prefHeight="380.0" prefWidth="585.0">
+              <columns>
+                <TableColumn fx:id="prescriptionIDCol" prefWidth="100.0" text="PrescriptionID" />
+                <TableColumn fx:id="symptomsCol" prefWidth="90.0" text="Symptoms" />
+                <TableColumn fx:id="drugNameCol" prefWidth="100.0" text="DrugName" />
+                <TableColumn fx:id="drugUseCol" prefWidth="80.0" text="DrugUse" />
+                <TableColumn fx:id="drugDaysCol" prefWidth="80.0" text="DrugDays" />
+                <TableColumn fx:id="patientNameCol" prefWidth="90.0" text="PatientName" />
+                <TableColumn fx:id="dateCol" prefWidth="90.0" text="Date" />
+              </columns>
+            </TableView>
+            <Label fx:id="Status" alignment="CENTER" layoutX="60.0" layoutY="425.0"  textFill="Blue">
+              <font>
+              <Font name="System Bold" size="16.0" />
+             </font>
+           </Label>
+      <Button fx:id="CreatePrescriptionButton" layoutX="610.0" layoutY="79.0" mnemonicParsing="false" onAction="#handleCreatePrescription" prefHeight="27.0" prefWidth="140.0" text="Create Prescription" />
+      <Button fx:id="PrescriptionHistoryButton" layoutX="610.0" layoutY="129.0" mnemonicParsing="false" onAction="#handlePrescriptionHistory" prefHeight="27.0" prefWidth="140.0" text="Prescription History"  />
+      <Button fx:id="UpdatePrescriptionButton" layoutX="610.0" layoutY="179.0" mnemonicParsing="false" onAction="#handleUpdatePrescription" prefHeight="27.0" prefWidth="140.0" text="Update Prescription"  />
+      <Button fx:id="LogoutButton" layoutX="610.0" layoutY="229.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="27.0" prefWidth="140.0" text="Logout"  />     
+   </children>
+</AnchorPane>

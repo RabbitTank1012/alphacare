@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="760.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserManage.PatientUIController">
+    <children> 
+       <Label fx:id="helloTxt" alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefWidth="200.0" text="Hello">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Label fx:id="welcomeLabel" contentDisplay="CENTER"  layoutX="14.0" layoutY="39.0" prefHeight="380.0" prefWidth="585.0" style="-fx-background-color: #3FBFBF;" text="Welcome TO PatientDashboard " textAlignment="CENTER" textFill="#56794e" wrapText="true">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+          <Button fx:id="CreateAppointmentButton" layoutX="610.0" layoutY="79.0" mnemonicParsing="false" onAction="#handleCreateAppointment" prefHeight="27.0" prefWidth="140.0" text="Create Appointment" />
+          <Button fx:id="AppointmentHistoryButton" layoutX="610.0" layoutY="129.0" mnemonicParsing="false" onAction="#handleAppointmentHistory" prefHeight="27.0" prefWidth="140.0" text="Appointment History" />
+          <Button fx:id="UpdateAppointmentButton" layoutX="610.0" layoutY="179.0" mnemonicParsing="false" onAction="#handleUpdateAppointment" prefHeight="27.0" prefWidth="140.0" text="Update Appointment" textAlignment="CENTER" wrapText="true" />
+          <Button fx:id="ExportAppointmentButton" layoutX="610.0" layoutY="229.0" mnemonicParsing="false" onAction="#handleExportAppointment" prefHeight="27.0" prefWidth="140.0" text="Export Appointment" />   
+          <Button fx:id="PatientPrescriptionButton" layoutX="610.0" layoutY="279.0" mnemonicParsing="false" onAction="#handlePatientPrescription" prefHeight="27.0" prefWidth="140.0" text="Patient Preccription" />       
+          <Button fx:id="LogoutButton" layoutX="610.0" layoutY="329.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="27.0" prefWidth="140.0" text="Logout" />     
+        <Label fx:id="Status" alignment="CENTER" layoutX="60.0" layoutY="425.0"  textFill="Blue">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

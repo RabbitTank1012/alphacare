@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/TreatmentManage/Appointment.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/AlphaCare/Navigation.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/AlphaCare/AlphaCare.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/DBManage/SqlitePrescription.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/UserManage/User.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/TreatmentManage/PrescriptionHistoryPatientController.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/UserManage/Login.fxml</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/DBManage/SqliteUser.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/TreatmentManage/Drug.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/UserManage/Doctor.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/TreatmentManage/CreateAppointmentController.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/DBManage/SqliteDB.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/TreatmentManage/PrescriptionHistoryDoctorController.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/UserManage/LoginController.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/TreatmentManage/CreateAppointment.fxml</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/DBManage/SqliteAppointment.java</file>
+            <file>file:/D:/C++%20TRY/JavaProjectSum/AlphaCare/IST412AlphaCare/src/TreatmentManage/AppointmentHistoryViewController.java</file>
+        </group>
+    </open-files>
+</project-private>
